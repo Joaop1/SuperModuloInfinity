@@ -1,11 +1,10 @@
-'''1- Faça um programa que peça dois números e verifique (usando if e else)
-e imprima o maior deles;'''
-num1 = int(input('informe um número: '))
-num2 = int(input('informe outro número: '))
+'''Fácil  1 – Faça um programa que receba um número e
+usando laços de repetição calcule e mostre a tabuada
+desse número.'''
 
-if num1 > num2:
-    print(num1)
-elif num1 < num2:
-    print(num2)
-else:
-    print('Os números são iguais')
+num  = int(input('Informe um numero: '))
+
+for i in range(1, 11, 1):
+    multi = num * i
+    print(f'{num} * {i} = {multi}')
+
